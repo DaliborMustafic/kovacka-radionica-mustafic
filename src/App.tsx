@@ -7,18 +7,18 @@ function App() {
   const [currentHeroImage, setCurrentHeroImage] = useState(0);
 
   const heroImages = [
-    "./img/1.jpg", 
-    "./img/2.jpg",
-    "./img/3.jpg"
+    "/img/1.jpg", 
+    "/img/2.jpg",
+    "/img/3.jpg"
   ];
 
   const galleryImages = [
-  "./img/4.jpg",
-  "./img/5.jpg",
-  "./img/6.jpg",
-  "./img/8.jpg",
-  "./img/9.jpg",
-  "./img/10.jpg"
+  "/img/4.jpg",
+  "/img/5.jpg",
+  "/img/6.jpg",
+  "/img/8.jpg",
+  "/img/9.jpg",
+  "/img/10.jpg"
   ];
 
   // Auto-rotate hero images
@@ -115,7 +115,7 @@ function App() {
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div>
                 <img 
-                  src="./img/11.jpg"
+                  src="/img/11.jpg"
                   alt="Kovač na poslu"
                   className="rounded-lg shadow-xl"
                 />
